@@ -20,4 +20,14 @@
     
 }
 
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.navbar-prueba{
+    background-color: #ec0a0a;
+    
+}
+
     

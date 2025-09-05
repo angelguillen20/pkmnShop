@@ -1,0 +1,30 @@
+[
+    {
+        "id": "potion-1",
+        "nombre": "Poción",
+        "descripcion": "Restaura 20 puntos de salud a un Pokémon.",
+        "precio": 300,
+        "imagen": ".images/Medicina/potion.png"
+    },
+    {
+        "id": "potion-2",
+        "nombre": "Superpoción",
+        "descripcion": "Restaura 50 puntos de salud a un Pokémon.",
+        "precio": 700,
+        "imagen": ".images/Medicina/super-potion.png"
+    },
+    {
+        "id": "potion-3",
+        "nombre": "Hiperpoción",
+        "descripcion": "Restaura 200 puntos de salud a un Pokémon.",
+        "precio": 1200,
+        "imagen": ".images/Medicina/hyper-potion.png"
+    },
+    {
+        "id": "potion-4",
+        "nombre": "Revivir",
+        "descripcion": "Revive a un Pokémon debilitado y restaura la mitad de sus puntos de salud.",
+        "precio": 1500,
+        "imagen": ".images/Medicina/revive.png"
+    }
+]

@@ -9,37 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title>Registro usuario PokéShop</title>
-
+    <title>Iniciar Session PokéShop</title>
+    <script src="JS/createAccountScript.js"></script>
 </head>
 
 <body>
-    <form action="" method="POST" id="Form">
+    <form onsubmit="loguear(); return false;">
         <!--Logo de pokeshop que redirige a la pagina principal-->
         <a href="index.html"><img src="images/createAccountImages/pkmnLogo.png" id="pokeLogo"> </a>
         <div class="container2">
             <br>
-            <h1 class="registration-h1"><strong>Create account</strong></h1>
+            <h1 class="registration-h1"><strong>Iniciar Session </strong></h1>
             <h6 class="registration-h6">All fields are required</h6>
 
             <div class="row mb-3">
                 <div class="col">
-                    <label for="user" class="roboto"><strong>Your name</strong></label>
-                    <input type="text" placeholder="Name and last name" name="nombre" id="nombre" class="input-control">
+                    <label for="nombre" class="roboto"><strong>Your name</strong></label>
+                    <input type="text" placeholder="Name and last name" name="nombre" id="loginNombre" class="input-control">
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <div class="col">
-                    <label for="correo" class="roboto"><strong>Email</strong></label>
-                    <input type="email" name="email" id="email" class="input-control" >
-                </div>
-            </div>
 
             <div class="row mb-3">
                 <div class="col">
-                    <label for="contra" class="roboto"><strong>Password</strong></label>
-                    <input type="password" name="pass1" id="pass1" class="input-control" >
+                    <label for="pass1" class="roboto"><strong>Password</strong></label>
+                    <input type="password" name="pass1" id="loginPass" class="input-control">
                 </div>
                 <div id="passwordHelpBlock" class="form-text">
                     <img src="images/createAccountImages/informacionIcon.png" alt="iIcon" id="iIcon">
@@ -47,32 +41,26 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <div class="col">
-                    <label for="contra" class="roboto"><strong>Confirm password</strong></label>
-                    <input type="password" name="pass2" id="pass2" class="input-control" >
-                    
-                </div>
-            </div>
 
             <div class="row mb-3">
-                <button type="submit" id="btn">Create user</button>
+                <button type="submit" id="btn" >Login</button>
                 <p class="warning" id="warning"></p>
             </div>
-
-            <hr class="register">
-            <div class="row mb-3">
-                <div class="col">
-                    <p>Do you already have an account? <a href="IniciarSession.html">Log in</a></p>
-                </div>
-            </div>
-
-        </div>
     </form>
+    <hr class="register">
+
+    <div class="row mb-3">
+        <div class="col">
+            <p>No tienes cuenta?<a href="createAccount.html">Register</a></p>
+        </div>
+    </div>
+
+    </div>
+
 
     <hr class="background">
     <p>© 2025, Poke-Shop.com, Inc. or its affiliates</p>
-    <script src="./JS/createAccountScript.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

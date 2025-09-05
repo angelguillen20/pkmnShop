@@ -1,0 +1,31 @@
+[
+    {
+        "id": "pokeball-1",
+        "nombre": "poke Ball",
+        "descripcion": "Se utiliza para capturar Pokémon salvajes.",
+        "precio": 300,
+        "imagen": "images/pokeballs/poke.png"
+    },
+    {
+        "id": "pokeball-2",
+        "nombre": "Great Ball",
+        "descripcion": "Tiene una tasa de captura más alta que la Poké Ball.",
+        "precio": 600,
+        "imagen": "images/pokeballs/great.png"
+    },
+    {
+        "id": "pokeball-3",
+        "nombre": "Ultra Ball",
+        "descripcion": "Tiene una tasa de captura aún más alta que la Great Ball.",
+        "precio": 1200,
+        "imagen": "images/pokeballs/ultra.png"
+    },
+    {
+        "id": "pokeball-4",
+        "nombre": "Glorial Ball",
+        "descripcion": "Poké Ball rara que solo se puede obtener al recibir un Pokémon mediante un Evento.",
+        "precio": 5000,
+        "imagen": "images/pokeballs/cherish.png"
+    }
+
+]
